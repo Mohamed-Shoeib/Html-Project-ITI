@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 10px;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid black;
+}
+
+.header {
+    background-image: url("../4.jpg"); 
+    background-size: cover;          
+    background-position: center;    
+    height: 800px;                              
+    color: white;                    
+}
+
+.header h3{
+    padding: 30px;
+    margin-left: 50px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul li{
+    display: inline-block;
+}
+
+.header ul li a {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 70px;
+    color: white;
+    text-decoration: none;
+}
+
+.header ul li:last-child a{
+    font-size: 30px;
+}
+
+ul li a:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.sec-1 h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.sec-1 h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sec-1 ul{
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sec-1 ul li{
+    display: inline-block;
+}
+
+.sec-1 span {
+    margin-right: 10px;
+}
+.sec-1 ul li a{
+    text-decoration: underline;
+}
+
+.sec{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;  
+    margin: 0 auto;
+    margin-left: 180px;
+}
+
+.sec h3 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.sec ul {
+    list-style: circle;
+    list-style-position: inside;
+}
+
+.color-item {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.color-item span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f9cdcd;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.color-item span:last-child {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f9cdcd;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+.color-item p {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle; 
+}
+
+.sec-3 .text{
+    display: inline-block;
+    width: 20%;
+    margin-left: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sec-3 .text h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sec-3 .txt-1{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+.sec-3 .txt-2{
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+}
+.sec-3 .txt-3{
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.ref h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.ref .img-box{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ref .img-box img{
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.ref .dept{
+    background-color: rgb(229, 229, 229);
+    padding: 50px;
+    overflow: hidden;
+}
+
+.ref .dept p {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 100px;
+    vertical-align: middle;
+}
+
+.ref .dept h3 {
+    display: inline-block;
+    font-size: 100px;
+    color: black;
+    margin-left: 500px;
+    vertical-align: middle;
+}
+
+.ref button.btn {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 30px 90px;
+    background-color: rgb(229, 229, 229);
+    color: black;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+.pic .box{
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+    vertical-align: middle;
+}
+
+.pic .box p{
+    text-align: center;
+    font-size: 20px;
+    margin-left: -9px;
+    margin-bottom: 100px;
+}
+
+.pic .img-box img{
+    width: 300px;
+    height: 500px;
+}
+
+.dept h4{
+    font-size: 45px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+.dept .about{
+    margin: 0 auto;
+}
+.dept .about .web{
+    display: inline-block;
+    width: 30%;
+    margin-left: 30px;
+}
+.about .web h4 {
+    margin-left: 50px;
+    font-size: 30px;
+}
+.about .web p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.about .icon-box img{
+    margin-left: 100px;
+}
+
+.brand .text p{
+    width: 40%;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.brand .text p span{
+    float: left;
+    color: rgb(21, 21, 87);
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.text p span:last-child{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.brand .img-box{
+    width: 40%;
+    float: right;
+}
+
+.award {
+    margin-top: 20px;
+    position: relative;
+}
+
+.award .box {
+    overflow: hidden;  
+    margin-bottom: 20px;
+}
+
+.award .award-box {
+    float: left;
+    width: 40%;
+    margin-left: 50px;
+}
+
+.award .award-box img {
+    display: block;
+    margin-left: 60px;
+}
+
+.award p {
+    float: right;
+    width: 50%;
+    margin: 0;
+    position: absolute;
+}
+
+.footer {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer h5{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.footer ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.footer ul li a {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 25px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
