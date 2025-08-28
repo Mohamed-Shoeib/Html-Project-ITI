@@ -8,7 +8,7 @@ body{
 }
 
 hr {
-    margin: 20px 0;
+    margin: 30px 0;
     border: 1px solid black;
 }
 
@@ -288,34 +288,25 @@ ul li a:hover{
 .brand .img-box{
     width: 40%;
     float: right;
+    margin-bottom: 10px;
 }
 
-.award {
-    margin-top: 20px;
-    position: relative;
-}
 
 .award .box {
-    overflow: hidden;  
-    margin-bottom: 20px;
+    overflow: hidden; 
+    margin-bottom: 30px;
 }
 
-.award .award-box {
+.award .box img {
     float: left;
-    width: 40%;
-    margin-left: 50px;
+    width: 30%;
+    margin-right: 15px; 
 }
 
-.award .award-box img {
-    display: block;
-    margin-left: 60px;
-}
-
-.award p {
-    float: right;
-    width: 50%;
+.award .box p {
+    float: left;
+    width: 65%; 
     margin: 0;
-    position: absolute;
 }
 
 .footer {
@@ -354,3 +345,10 @@ ul li a:hover {
     font-weight: bold;
     text-decoration: underline;
 }
+
+
+
+
+
+
+
